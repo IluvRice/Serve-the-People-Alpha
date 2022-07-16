@@ -9,5 +9,5 @@ print("You are hired to work in a factory and produce goods while keeping your f
 
 input("\nPress ENTER to start Day 1.")
 
-input("\nThis is your first day of work, it looks simple but as soon you get promoted, the job will get even harder. the smoke in the factory almost makes you physically recoil. You are handed a dusty slip of paper by your superior, reading: 'A storage of important documents (do not read). Put\nin regular box. Bring to the UOS-PRA Embassy.'\nPress ENTER to continue.")
+input("\nThis is your first day of work, it looks simple but as soon you get promoted, the job will get even harder. the smoke in the factory almost makes you physically recoil. You are handed a dusty slip of paper by your superior, reading: 'A storage of important documents(do not read). Put in a regular box. Bring to the UOS-PRA Embassy.'\nPress ENTER to continue.")
 input("\nAs you moved outside, ready to drive your vehicle, your eyes occur two paths.")
