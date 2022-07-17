@@ -1,0 +1,19 @@
+print('The year is 2007. China has ended the "war in the Taiwan Strait", an all-out war turned nuclear, with the United States 3 years ago,\nbut tensions remain high in a Cold-War style rivalry, and your nation is struggling to recover from a decade of warfare. You are one of\nthe few lucky survivors, but some of your family members did not last. You relocate to the industrial and capital city of Beijing from your ghost town village in Nanjing to look for a job, and are given a note to not visit illegal urban municipalities, due to income inquality in those areas.')
+name = str(input("Your name is: \n>>> "))
+print('\nNo, your name is not', name + ".")
+name = "Li"
+print("\nYour name is", name + ".")
+print("You are a country bumpkin, and you are hired to work at a factory in Beijing and produce goods while keeping yourself alive by gaining Credits, which are used to tell your loyalty to the government. China's industry attracts foreigners and you will deliver your products\nto specific locations. However, you are only 17 (as of now), and your job is highly supervised and restricted.\nIf you fail to do your job correctly, you will lose Credits.")
+
+input("\nPress ENTER to start Day 1.")
+
+input("\nThis is your first day of work, it looks simple but as soon you get promoted, the job will get even harder. the smoke in the factory almost makes you physically recoil. You are handed a dusty slip of paper by your co-worker, reading: 'A storage of important documents (do not read). Put inside a regular box. Bring it to the U.S Embassy in Beijing.'\n\nPress ENTER to continue.")
+input("\nYou recieve a set of papers and put it in a folder to cover it, with a red text reading 'CONFIDENTIAL', storing it in a box and walking\nto the other room.\n\nPress ENTER to continue.")
+
+input("\nAs you walked to your location, you encounter two scanners, with two posters sticked on them. These are supposed to absorb products and\nsend it to the respective office, so the product could reach drivers and the following destination.\n\nPress ENTER to continue.")
+userinput = input("\nThe first poster reads 'SEATTLE', and the second reads 'U.S EMBASSY, BEIJING'. Enter the key '1' for the first poster, and the key '2' for the second poster.\n>>> ")
+
+if userinput == "1":
+    print("You put the papers inside the first scanner. You wait for a couple of minutes before the papers are suddenly sent back and slide out of\nthe scanner. You move back to your office, only to get a note sliding out of your small machine, reading: DISCREPANCY DETECTED. INCORRECT SCANNER. ONLY A WARNING, NO PENALTY IS IMPLEMENTED. BY THE GOVERNMENT OF THE PEOPLE'S REPUBLIC OF CHINA.\n\nPress ENTER to continue.")
+elif userinput == "2":
+    print("You put the papers inside the second scanner. You wait for a couple of minutes and move back to your office.\n\nPress ENTER to continue.")
